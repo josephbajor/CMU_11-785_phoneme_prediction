@@ -1,0 +1,6 @@
+.vscode
+.ipynb_checkpoints
+/__pycache__
+model_arch.txt
+model_checkpoint.pth
+*.pdf
