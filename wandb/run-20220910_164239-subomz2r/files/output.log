@@ -1,0 +1,73 @@
+
+{"shape": "(1942902,)", "count": 1942902, "type": "ndarray"}
+{"AudioDataset": "type", "AudioTestDataset": "type", "Network": "type", "PHONEMES": "list", "alltrans": "ndarray", "config": "dict", "criterion": "CrossEntropyLoss", "data": "list", "datapath": "str", "datetime": "module", "device": "str", "eval": "function", "frames": "Tensor", "gc": "module", "i": "int", "idx": "int", "input_size": "int", "least_common": "str_", "mfcc": "ndarray", "mfcc_list": "list", "model": "Network", "np": "module", "optimizer": "Adam", "os": "module", "pd": "module", "phone_map": "dict", "phoneme": "Tensor", "plt": "module", "run": "Run", "sil_count": "ndarray", "sklearn": "module", "summary": "function", "sys": "module", "test_data": "AudioTestDataset", "test_loader": "DataLoader", "torch": "module", "tqdm": "type", "train": "function", "train_data": "AudioDataset", "train_loader": "DataLoader", "trans": "ndarray", "trans_list": "list", "unq": "tuple", "val_data": "AudioDataset", "val_loader": "DataLoader", "wandb": "module", "zipfile": "module"}
+{"shape": "", "count": 5, "type": "dict"}
+{"AudioDataset": "type", "AudioTestDataset": "type", "Network": "type", "PHONEMES": "list", "alltrans": "ndarray", "arch_file": "TextIOWrapper", "config": "dict", "criterion": "CrossEntropyLoss", "data": "list", "datapath": "str", "datetime": "module", "device": "str", "eval": "function", "file_write": "int", "frames": "Tensor", "gc": "module", "i": "int", "idx": "int", "input_size": "int", "least_common": "str_", "mfcc": "ndarray", "mfcc_list": "list", "model": "Network", "model_arch": "str", "np": "module", "optimizer": "Adam", "os": "module", "pd": "module", "phone_map": "dict", "phoneme": "Tensor", "plt": "module", "run": "Run", "sil_count": "ndarray", "sklearn": "module", "summary": "function", "sys": "module", "test_data": "AudioTestDataset", "test_loader": "DataLoader", "torch": "module", "tqdm": "type", "train": "function", "train_data": "AudioDataset", "train_loader": "DataLoader", "trans": "ndarray", "trans_list": "list", "unq": "tuple", "val_data": "AudioDataset", "val_loader": "DataLoader", "wandb": "module", "zipfile": "module"}
+{"shape": "(1942902,)", "count": 1942902, "type": "ndarray"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(1942902,)", "count": 1942902, "type": "ndarray"}
+Epoch 1/10
+{"AudioDataset": "type", "AudioTestDataset": "type", "Network": "type", "PHONEMES": "list", "alltrans": "ndarray", "arch_file": "TextIOWrapper", "best_acc": "float", "config": "dict", "criterion": "CrossEntropyLoss", "data": "list", "datapath": "str", "datetime": "module", "device": "str", "epoch": "int", "eval": "function", "file_write": "int", "frames": "Tensor", "gc": "module", "i": "int", "idx": "int", "input_size": "int", "least_common": "str_", "mfcc": "ndarray", "mfcc_list": "list", "model": "Network", "model_arch": "str", "np": "module", "optimizer": "Adam", "os": "module", "pd": "module", "phone_map": "dict", "phoneme": "Tensor", "plt": "module", "run": "Run", "sil_count": "ndarray", "sklearn": "module", "summary": "function", "sys": "module", "test_data": "AudioTestDataset", "test_loader": "DataLoader", "torch": "module", "tqdm": "type", "train": "function", "train_data": "AudioDataset", "train_loader": "DataLoader", "train_loss": "float", "trans": "ndarray", "trans_list": "list", "unq": "tuple", "val_data": "AudioDataset", "val_loader": "DataLoader", "wandb": "module", "zipfile": "module"}
+{"shape": "", "count": 42, "type": "dict"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "", "count": 42, "type": "dict"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(1942902,)", "count": 1942902, "type": "ndarray"}
+{"shape": "(1024)", "count": 1024, "type": "Tensor"}
+{"AudioDataset": "type", "AudioTestDataset": "type", "Network": "type", "PHONEMES": "list", "alltrans": "ndarray", "arch_file": "TextIOWrapper", "best_acc": "float", "config": "dict", "criterion": "CrossEntropyLoss", "data": "list", "datapath": "str", "datetime": "module", "device": "str", "epoch": "int", "eval": "function", "file_write": "int", "frames": "Tensor", "gc": "module", "i": "int", "idx": "int", "input_size": "int", "least_common": "str_", "mfcc": "ndarray", "mfcc_list": "list", "model": "Network", "model_arch": "str", "np": "module", "optimizer": "Adam", "os": "module", "pd": "module", "phone_map": "dict", "phoneme": "Tensor", "plt": "module", "run": "Run", "sil_count": "ndarray", "sklearn": "module", "summary": "function", "sys": "module", "test_data": "AudioTestDataset", "test_loader": "DataLoader", "torch": "module", "tqdm": "type", "train": "function", "train_data": "AudioDataset", "train_loader": "DataLoader", "train_loss": "float", "trans": "ndarray", "trans_list": "list", "unq": "tuple", "val_data": "AudioDataset", "val_loader": "DataLoader", "wandb": "module", "zipfile": "module"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "(1024)", "count": 1024, "type": "Tensor"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(1942902,)", "count": 1942902, "type": "ndarray"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+{"shape": "", "count": 42, "type": "dict"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+{"shape": "", "count": 42, "type": "dict"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+{"shape": "", "count": 42, "type": "dict"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+{"shape": "", "count": 42, "type": "dict"}
+{"shape": "", "count": 42, "type": "dict"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+{"shape": "", "count": 42, "type": "dict"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+Epoch 1/10
+{"AudioDataset": "type", "AudioTestDataset": "type", "Network": "type", "PHONEMES": "list", "alltrans": "ndarray", "arch_file": "TextIOWrapper", "best_acc": "float", "config": "dict", "criterion": "CrossEntropyLoss", "data": "list", "datapath": "str", "datetime": "module", "device": "str", "epoch": "int", "eval": "function", "file_write": "int", "frames": "Tensor", "gc": "module", "i": "int", "idx": "int", "input_size": "int", "least_common": "str_", "mfcc": "ndarray", "mfcc_list": "list", "model": "Network", "model_arch": "str", "np": "module", "optimizer": "Adam", "os": "module", "pd": "module", "phone_map": "dict", "phoneme": "Tensor", "plt": "module", "run": "Run", "sil_count": "ndarray", "sklearn": "module", "summary": "function", "sys": "module", "test_data": "AudioTestDataset", "test_loader": "DataLoader", "torch": "module", "tqdm": "type", "train": "function", "train_data": "AudioDataset", "train_loader": "DataLoader", "train_loss": "float", "trans": "ndarray", "trans_list": "list", "unq": "tuple", "val_data": "AudioDataset", "val_loader": "DataLoader", "wandb": "module", "zipfile": "module"}
+{"shape": "(1942902,)", "count": 1942902, "type": "ndarray"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+{"AudioDataset": "type", "AudioTestDataset": "type", "Network": "type", "PHONEMES": "list", "alltrans": "ndarray", "arch_file": "TextIOWrapper", "best_acc": "float", "config": "dict", "criterion": "CrossEntropyLoss", "data": "list", "datapath": "str", "datetime": "module", "device": "str", "epoch": "int", "eval": "function", "file_write": "int", "frames": "Tensor", "gc": "module", "i": "int", "idx": "int", "input_size": "int", "least_common": "str_", "mfcc": "ndarray", "mfcc_list": "list", "model": "Network", "model_arch": "str", "np": "module", "optimizer": "Adam", "os": "module", "pd": "module", "phone_map": "dict", "phoneme": "Tensor", "plt": "module", "run": "Run", "sil_count": "ndarray", "sklearn": "module", "summary": "function", "sys": "module", "test_data": "AudioTestDataset", "test_loader": "DataLoader", "torch": "module", "tqdm": "type", "train": "function", "train_data": "AudioDataset", "train_loader": "DataLoader", "train_loss": "float", "trans": "ndarray", "trans_list": "list", "unq": "tuple", "val_data": "AudioDataset", "val_loader": "DataLoader", "wandb": "module", "zipfile": "module"}
+{"shape": "(1942902,)", "count": 1942902, "type": "ndarray"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+wandb: Network error (ConnectionError), entering retry loop.
+wandb: Network error (ConnectionError), entering retry loop.
+{"AudioDataset": "type", "AudioTestDataset": "type", "Network": "type", "PHONEMES": "list", "alltrans": "ndarray", "arch_file": "TextIOWrapper", "best_acc": "float", "config": "dict", "criterion": "CrossEntropyLoss", "data": "list", "datapath": "str", "datetime": "module", "device": "str", "epoch": "int", "eval": "function", "file_write": "int", "frames": "Tensor", "gc": "module", "i": "int", "idx": "int", "input_size": "int", "least_common": "str_", "mfcc": "ndarray", "mfcc_list": "list", "model": "Network", "model_arch": "str", "np": "module", "optimizer": "Adam", "os": "module", "pd": "module", "phone_map": "dict", "phoneme": "Tensor", "plt": "module", "run": "Run", "sil_count": "ndarray", "sklearn": "module", "summary": "function", "sys": "module", "test_data": "AudioTestDataset", "test_loader": "DataLoader", "torch": "module", "tqdm": "type", "train": "function", "train_data": "AudioDataset", "train_loader": "DataLoader", "train_loss": "float", "trans": "ndarray", "trans_list": "list", "unq": "tuple", "val_data": "AudioDataset", "val_loader": "DataLoader", "wandb": "module", "zipfile": "module"}
+{"AudioDataset": "type", "AudioTestDataset": "type", "Network": "type", "PHONEMES": "list", "alltrans": "ndarray", "arch_file": "TextIOWrapper", "best_acc": "float", "config": "dict", "criterion": "CrossEntropyLoss", "data": "list", "datapath": "str", "datetime": "module", "device": "str", "epoch": "int", "eval": "function", "file_write": "int", "frames": "Tensor", "gc": "module", "i": "int", "idx": "int", "input_size": "int", "least_common": "str_", "mfcc": "ndarray", "mfcc_list": "list", "model": "Network", "model_arch": "str", "np": "module", "optimizer": "Adam", "os": "module", "pd": "module", "phone_map": "dict", "phoneme": "Tensor", "plt": "module", "run": "Run", "sil_count": "ndarray", "sklearn": "module", "summary": "function", "sys": "module", "test_data": "AudioTestDataset", "test_loader": "DataLoader", "torch": "module", "tqdm": "type", "train": "function", "train_data": "AudioDataset", "train_loader": "DataLoader", "train_loss": "float", "trans": "ndarray", "trans_list": "list", "unq": "tuple", "val_data": "AudioDataset", "val_loader": "DataLoader", "wandb": "module", "zipfile": "module"}
+{"AudioDataset": "type", "AudioTestDataset": "type", "Network": "type", "PHONEMES": "list", "alltrans": "ndarray", "arch_file": "TextIOWrapper", "best_acc": "float", "config": "dict", "criterion": "CrossEntropyLoss", "data": "list", "datapath": "str", "datetime": "module", "device": "str", "epoch": "int", "eval": "function", "file_write": "int", "frames": "Tensor", "gc": "module", "i": "int", "idx": "int", "input_size": "int", "least_common": "str_", "mfcc": "ndarray", "mfcc_list": "list", "model": "Network", "model_arch": "str", "np": "module", "optimizer": "Adam", "os": "module", "pd": "module", "phone_map": "dict", "phoneme": "Tensor", "plt": "module", "run": "Run", "sil_count": "ndarray", "sklearn": "module", "summary": "function", "sys": "module", "test_data": "AudioTestDataset", "test_loader": "DataLoader", "torch": "module", "tqdm": "type", "train": "function", "train_data": "AudioDataset", "train_loader": "DataLoader", "train_loss": "float", "trans": "ndarray", "trans_list": "list", "unq": "tuple", "val_data": "AudioDataset", "val_loader": "DataLoader", "wandb": "module", "zipfile": "module"}
+{"shape": "(1942902,)", "count": 1942902, "type": "ndarray"}
+{"shape": "(1942902,)", "count": 1942902, "type": "ndarray"}
+{"shape": "(1942902,)", "count": 1942902, "type": "ndarray"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "", "count": 5, "type": "dict"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(1024, 15)", "count": 1024, "type": "Tensor"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}
+{"shape": "(745, 15)", "count": 745, "type": "ndarray"}

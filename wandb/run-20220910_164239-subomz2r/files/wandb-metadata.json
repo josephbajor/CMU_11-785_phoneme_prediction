@@ -1,0 +1,16 @@
+{
+    "os": "macOS-12.5-arm64-arm-64bit",
+    "python": "3.10.6",
+    "heartbeatAt": "2022-09-10T20:42:39.516578",
+    "startedAt": "2022-09-10T20:42:39.043603",
+    "docker": null,
+    "cpu_count": 10,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "HW1P2_Starter_Student-jvsc-7bbbe292-515a-4dae-8f0a-4a32fcf5959c4403d0d8-d296-4d65-a9af-16fb5b6cd76a.ipynb",
+    "root": "/Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1",
+    "host": "josephs-mbp-6.wifi.local.cmu.edu",
+    "username": "josephbajor",
+    "executable": "/Users/josephbajor/mambaforge/envs/dl/bin/python"
+}

@@ -1,0 +1,329 @@
+2022-09-13 22:04:00,488 INFO    StreamThr :26321 [internal.py:wandb_internal():90] W&B internal server running at pid: 26321, started at: 2022-09-13 22:04:00.487413
+2022-09-13 22:04:00,489 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: status
+2022-09-13 22:04:00,490 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: status
+2022-09-13 22:04:00,492 DEBUG   SenderThread:26321 [sender.py:send():302] send: header
+2022-09-13 22:04:00,492 INFO    WriterThread:26321 [datastore.py:open_for_write():75] open: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/run-32g0c24g.wandb
+2022-09-13 22:04:00,493 DEBUG   SenderThread:26321 [sender.py:send():302] send: run
+2022-09-13 22:04:00,796 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: check_version
+2022-09-13 22:04:00,803 INFO    SenderThread:26321 [dir_watcher.py:__init__():216] watching files in: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files
+2022-09-13 22:04:00,803 INFO    SenderThread:26321 [sender.py:_start_run_threads():913] run started: 32g0c24g with start time 1663121040.4819
+2022-09-13 22:04:00,803 DEBUG   SenderThread:26321 [sender.py:send():302] send: summary
+2022-09-13 22:04:00,804 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 22:04:00,804 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: check_version
+2022-09-13 22:04:00,994 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: run_start
+2022-09-13 22:04:00,995 DEBUG   HandlerThread:26321 [meta.py:__init__():35] meta init
+2022-09-13 22:04:00,995 DEBUG   HandlerThread:26321 [meta.py:__init__():50] meta init done
+2022-09-13 22:04:00,995 DEBUG   HandlerThread:26321 [meta.py:probe():216] probe
+2022-09-13 22:04:00,997 DEBUG   HandlerThread:26321 [git.py:repo():40] git repository is invalid
+2022-09-13 22:04:00,997 DEBUG   HandlerThread:26321 [meta.py:_save_pip():54] save pip
+2022-09-13 22:04:00,998 DEBUG   HandlerThread:26321 [meta.py:_save_pip():68] save pip done
+2022-09-13 22:04:00,998 DEBUG   HandlerThread:26321 [meta.py:_save_conda():75] save conda
+2022-09-13 22:04:01,809 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/conda-environment.yaml
+2022-09-13 22:04:01,810 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/requirements.txt
+2022-09-13 22:04:01,810 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/wandb-summary.json
+2022-09-13 22:04:02,409 DEBUG   HandlerThread:26321 [meta.py:_save_conda():85] save conda done
+2022-09-13 22:04:02,409 DEBUG   HandlerThread:26321 [meta.py:probe():254] probe done
+2022-09-13 22:04:02,413 DEBUG   SenderThread:26321 [sender.py:send():302] send: telemetry
+2022-09-13 22:04:02,413 DEBUG   SenderThread:26321 [sender.py:send():302] send: files
+2022-09-13 22:04:02,413 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-13 22:04:02,418 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:04:02,419 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:04:02,421 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: pause
+2022-09-13 22:04:02,421 INFO    HandlerThread:26321 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-09-13 22:04:02,575 DEBUG   SenderThread:26321 [sender.py:send():302] send: telemetry
+2022-09-13 22:04:02,575 DEBUG   SenderThread:26321 [sender.py:send():302] send: telemetry
+2022-09-13 22:04:02,576 DEBUG   SenderThread:26321 [sender.py:send():302] send: files
+2022-09-13 22:04:02,576 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file model_arch.txt with policy live
+2022-09-13 22:04:02,810 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/conda-environment.yaml
+2022-09-13 22:04:02,810 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/wandb-metadata.json
+2022-09-13 22:04:02,810 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/model_arch.txt
+2022-09-13 22:04:03,012 INFO    Thread-16 :26321 [upload_job.py:push():138] Uploaded file /var/folders/rl/dnlq62k50fd_dd8959xr62nh0000gn/T/tmpuunf8lnywandb/2q4ilu3e-wandb-metadata.json
+2022-09-13 22:04:03,104 INFO    Thread-17 :26321 [upload_job.py:push():138] Uploaded file /var/folders/rl/dnlq62k50fd_dd8959xr62nh0000gn/T/tmpuunf8lnywandb/1tnc94aj-model_arch.txt
+2022-09-13 22:04:03,220 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: resume
+2022-09-13 22:04:03,222 INFO    HandlerThread:26321 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-09-13 22:04:03,225 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: pause
+2022-09-13 22:04:03,226 INFO    HandlerThread:26321 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-09-13 22:04:05,348 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: resume
+2022-09-13 22:04:05,348 INFO    HandlerThread:26321 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-09-13 22:04:05,351 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:04:05,351 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:04:05,992 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/output.log
+2022-09-13 22:04:08,011 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/output.log
+2022-09-13 22:04:20,215 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:04:20,215 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:04:32,109 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/config.yaml
+2022-09-13 22:04:35,379 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:04:35,379 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:04:44,402 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:04:50,515 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:04:50,516 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:05:05,640 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:05:05,642 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:05:20,780 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:05:20,781 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:05:25,884 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:05:35,923 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:05:35,923 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:05:51,086 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:05:51,087 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:06:06,243 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:06:06,243 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:06:07,044 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:06:21,483 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:06:21,484 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:06:36,688 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:06:36,689 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:06:48,212 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:06:51,841 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:06:51,841 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:07:06,970 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:07:06,970 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:07:22,107 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:07:22,108 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:07:29,399 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:07:37,247 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:07:37,248 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:07:52,392 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:07:52,392 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:08:07,537 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:08:07,538 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:08:10,692 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:08:22,685 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:08:22,685 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:08:33,679 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 22:08:33,679 DEBUG   SenderThread:26321 [sender.py:send():302] send: history
+2022-09-13 22:08:33,679 DEBUG   SenderThread:26321 [sender.py:send():302] send: summary
+2022-09-13 22:08:33,681 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 22:08:33,685 DEBUG   SenderThread:26321 [sender.py:send():302] send: files
+2022-09-13 22:08:33,685 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file checkpoint.pth with policy live
+2022-09-13 22:08:34,100 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/output.log
+2022-09-13 22:08:34,100 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/wandb-summary.json
+2022-09-13 22:08:37,831 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:08:37,832 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:08:52,274 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:08:52,997 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:08:52,997 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:09:08,122 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:09:08,122 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:09:23,253 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:09:23,254 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:09:33,493 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:09:38,388 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:09:38,388 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:09:53,532 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:09:53,533 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:10:08,699 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:10:08,699 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:10:14,790 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:10:23,840 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:10:23,841 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:10:38,987 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:10:38,989 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:10:54,130 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:10:54,131 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:10:56,103 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:11:09,279 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:11:09,279 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:11:24,418 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:11:24,419 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:11:37,346 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:11:39,557 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:11:39,558 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:11:54,705 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:11:54,707 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:12:09,884 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:12:09,885 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:12:18,655 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:12:25,035 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:12:25,036 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:12:40,183 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:12:40,183 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:12:55,320 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:12:55,320 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:12:59,902 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:13:10,514 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:13:10,515 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:13:10,697 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 22:13:10,697 DEBUG   SenderThread:26321 [sender.py:send():302] send: history
+2022-09-13 22:13:10,697 DEBUG   SenderThread:26321 [sender.py:send():302] send: summary
+2022-09-13 22:13:10,699 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 22:13:10,704 DEBUG   SenderThread:26321 [sender.py:send():302] send: files
+2022-09-13 22:13:10,704 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file checkpoint.pth with policy live
+2022-09-13 22:13:11,182 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/wandb-summary.json
+2022-09-13 22:13:13,626 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/output.log
+2022-09-13 22:13:25,685 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:13:25,686 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:13:40,827 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:13:40,827 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:13:42,024 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:13:55,971 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:13:55,973 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:14:11,142 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:14:11,142 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:14:23,374 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:14:26,282 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:14:26,282 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:14:41,426 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:14:41,427 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:14:56,573 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:14:56,574 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:15:04,704 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:15:11,730 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:15:11,730 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:15:26,866 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:15:26,868 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:15:42,009 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:15:42,010 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:15:46,000 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:15:57,164 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:15:57,165 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:16:12,302 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:16:12,303 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:16:27,233 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:16:27,428 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:16:27,428 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:16:42,571 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:16:42,572 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:16:57,716 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:16:57,717 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:17:08,514 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:17:12,858 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:17:12,858 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:17:27,999 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:17:27,999 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:17:43,144 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 22:17:43,145 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 22:17:44,488 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 22:17:44,488 DEBUG   SenderThread:26321 [sender.py:send():302] send: history
+2022-09-13 22:17:44,488 DEBUG   SenderThread:26321 [sender.py:send():302] send: summary
+2022-09-13 22:17:44,489 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 22:17:44,494 DEBUG   SenderThread:26321 [sender.py:send():302] send: files
+2022-09-13 22:17:44,494 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file checkpoint.pth with policy live
+2022-09-13 22:17:44,494 DEBUG   SenderThread:26321 [sender.py:send():302] send: telemetry
+2022-09-13 22:17:44,496 DEBUG   SenderThread:26321 [sender.py:send():302] send: exit
+2022-09-13 22:17:44,496 INFO    SenderThread:26321 [sender.py:send_exit():438] handling exit code: 0
+2022-09-13 22:17:44,496 INFO    SenderThread:26321 [sender.py:send_exit():440] handling runtime: 823
+2022-09-13 22:17:44,497 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 22:17:44,497 INFO    SenderThread:26321 [sender.py:send_exit():446] send defer
+2022-09-13 22:17:44,497 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:44,497 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-13 22:17:44,497 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:44,497 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-13 22:17:44,497 INFO    SenderThread:26321 [sender.py:transition_state():459] send defer: 1
+2022-09-13 22:17:44,497 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:44,497 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-13 22:17:44,714 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/wandb-summary.json
+2022-09-13 22:17:45,145 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:45,145 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:45,145 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-13 22:17:45,145 INFO    SenderThread:26321 [sender.py:transition_state():459] send defer: 2
+2022-09-13 22:17:45,145 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:45,145 DEBUG   SenderThread:26321 [sender.py:send():302] send: stats
+2022-09-13 22:17:45,146 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:45,146 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-13 22:17:45,146 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:45,146 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-13 22:17:45,146 INFO    SenderThread:26321 [sender.py:transition_state():459] send defer: 3
+2022-09-13 22:17:45,146 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:45,146 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-13 22:17:45,146 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:45,146 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-13 22:17:45,146 INFO    SenderThread:26321 [sender.py:transition_state():459] send defer: 4
+2022-09-13 22:17:45,146 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:45,146 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-13 22:17:45,146 DEBUG   SenderThread:26321 [sender.py:send():302] send: summary
+2022-09-13 22:17:45,147 INFO    SenderThread:26321 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 22:17:45,147 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:45,147 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-13 22:17:45,147 INFO    SenderThread:26321 [sender.py:transition_state():459] send defer: 5
+2022-09-13 22:17:45,147 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:45,147 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-13 22:17:45,147 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:45,147 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-13 22:17:45,254 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:45,314 INFO    SenderThread:26321 [sender.py:transition_state():459] send defer: 6
+2022-09-13 22:17:45,314 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:45,314 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:45,314 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-13 22:17:45,315 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:45,315 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-13 22:17:45,421 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:45,720 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/output.log
+2022-09-13 22:17:45,722 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/config.yaml
+2022-09-13 22:17:45,723 INFO    Thread-12 :26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/wandb-summary.json
+2022-09-13 22:17:47,075 INFO    SenderThread:26321 [sender.py:transition_state():459] send defer: 7
+2022-09-13 22:17:47,076 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:47,080 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:47,080 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-13 22:17:47,081 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:47,081 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-13 22:17:47,081 INFO    SenderThread:26321 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-13 22:17:47,188 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:47,736 INFO    SenderThread:26321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/output.log
+2022-09-13 22:17:47,737 INFO    SenderThread:26321 [dir_watcher.py:finish():392] scan: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files
+2022-09-13 22:17:47,738 INFO    SenderThread:26321 [dir_watcher.py:finish():406] scan save: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/requirements.txt requirements.txt
+2022-09-13 22:17:47,738 INFO    SenderThread:26321 [dir_watcher.py:finish():406] scan save: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/model_arch.txt model_arch.txt
+2022-09-13 22:17:47,738 INFO    SenderThread:26321 [dir_watcher.py:finish():406] scan save: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/output.log output.log
+2022-09-13 22:17:47,738 INFO    SenderThread:26321 [dir_watcher.py:finish():406] scan save: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/config.yaml config.yaml
+2022-09-13 22:17:47,746 INFO    SenderThread:26321 [dir_watcher.py:finish():406] scan save: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/wandb-summary.json wandb-summary.json
+2022-09-13 22:17:47,747 INFO    SenderThread:26321 [dir_watcher.py:finish():406] scan save: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/conda-environment.yaml conda-environment.yaml
+2022-09-13 22:17:47,747 INFO    SenderThread:26321 [dir_watcher.py:finish():406] scan save: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/wandb-metadata.json wandb-metadata.json
+2022-09-13 22:17:47,750 INFO    SenderThread:26321 [sender.py:transition_state():459] send defer: 8
+2022-09-13 22:17:47,751 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:47,758 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:47,761 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-13 22:17:47,761 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:47,762 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-13 22:17:47,762 INFO    SenderThread:26321 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-13 22:17:47,867 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:47,867 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:47,970 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:47,971 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:48,077 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:48,078 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:48,190 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:48,190 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:48,301 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:48,302 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:48,413 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:48,413 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:48,418 INFO    Thread-20 :26321 [upload_job.py:push():138] Uploaded file /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/requirements.txt
+2022-09-13 22:17:48,421 INFO    Thread-23 :26321 [upload_job.py:push():138] Uploaded file /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/wandb-summary.json
+2022-09-13 22:17:48,422 INFO    Thread-21 :26321 [upload_job.py:push():138] Uploaded file /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/output.log
+2022-09-13 22:17:48,423 INFO    Thread-24 :26321 [upload_job.py:push():138] Uploaded file /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/conda-environment.yaml
+2022-09-13 22:17:48,425 INFO    Thread-22 :26321 [upload_job.py:push():138] Uploaded file /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/files/config.yaml
+2022-09-13 22:17:48,520 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:48,521 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:48,627 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:48,628 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:48,631 INFO    Thread-11 (_thread_body):26321 [sender.py:transition_state():459] send defer: 9
+2022-09-13 22:17:48,631 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:48,631 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-13 22:17:48,631 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:48,631 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-13 22:17:48,735 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:48,902 INFO    SenderThread:26321 [sender.py:transition_state():459] send defer: 10
+2022-09-13 22:17:48,902 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:48,904 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:48,904 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-13 22:17:48,907 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:48,907 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-13 22:17:48,908 INFO    SenderThread:26321 [sender.py:transition_state():459] send defer: 11
+2022-09-13 22:17:48,910 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: defer
+2022-09-13 22:17:48,911 INFO    HandlerThread:26321 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-13 22:17:48,911 DEBUG   SenderThread:26321 [sender.py:send():302] send: final
+2022-09-13 22:17:48,912 DEBUG   SenderThread:26321 [sender.py:send():302] send: footer
+2022-09-13 22:17:48,912 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: defer
+2022-09-13 22:17:48,912 INFO    SenderThread:26321 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-13 22:17:49,017 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-13 22:17:49,017 DEBUG   SenderThread:26321 [sender.py:send_request():316] send_request: poll_exit
+2022-09-13 22:17:49,018 INFO    SenderThread:26321 [file_pusher.py:join():176] waiting for file pusher
+2022-09-13 22:17:49,423 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-13 22:17:49,432 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-13 22:17:49,434 DEBUG   HandlerThread:26321 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-13 22:17:49,434 INFO    HandlerThread:26321 [handler.py:finish():810] shutting down handler
+2022-09-13 22:17:49,916 INFO    WriterThread:26321 [datastore.py:close():279] close: /Users/josephbajor/Library/CloudStorage/OneDrive-Personal/Code/CMU/Deep Learning/HW1/wandb/run-20220913_220400-32g0c24g/run-32g0c24g.wandb
+2022-09-13 22:17:50,317 INFO    SenderThread:26321 [sender.py:finish():1312] shutting down sender
+2022-09-13 22:17:50,318 INFO    SenderThread:26321 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-13 22:17:50,318 INFO    SenderThread:26321 [file_pusher.py:join():176] waiting for file pusher
+2022-09-14 14:50:55,690 INFO    MainThread:26321 [internal.py:handle_exit():80] Internal process exited
