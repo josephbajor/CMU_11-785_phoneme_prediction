@@ -1,17 +1,16 @@
 import torch
 import os
 import numpy as np
+from hparams import Hparams
 
 class AudioDataset(torch.utils.data.Dataset):
 
-    def __init__(self, data_path:os.PathLike, context:int, offset=0, partition="train", limit=None): # Feel free to add more arguments
+    def __init__(self, hparams:Hparams): # Feel free to add more arguments
 
-        self.context = context
-        self.offset = offset
-        self.data_path = data_path
+        self.hparams = hparams
 
-        self.mfcc_dir = f'{self.data_path}/mfcc' # TODO: MFCC directory - use partition to acces train/dev directories from kaggle data
-        self.transcript_dir = f'{self.data_path}/transcript' # TODO: Transcripts directory - use partition to acces train/dev directories from kaggle data
+        self.mfcc_dir = f'{self.hparams.datapath}/mfcc' # TODO: MFCC directory - use partition to acces train/dev directories from kaggle data
+        self.transcript_dir = f'{self.hparams.datapath}/transcript' # TODO: Transcripts directory - use partition to acces train/dev directories from kaggle data
 
         mfcc_names = sorted(os.listdir(self.mfcc_dir)) # TODO: List files in X_dir using os.listdir in sorted order, optionally subset using limit to slice the number of files you load
         transcript_names = sorted(os.listdir(self.transcript_dir)) # TODO: List files in Y_dir using os.listdir in sorted order, optionally subset using limit to slice the number of files you load
@@ -24,11 +23,11 @@ class AudioDataset(torch.utils.data.Dataset):
         # Iterate through mfccs and transcripts
         for i in range(0, len(mfcc_names)):
         #   Load a single mfcc
-            mfcc = np.load(f'{self.data_path}/mfcc/{mfcc_names[i]}')
-        #   Optionally do Cepstral Normalization of mfcc
-        #   Load the corresponding transcript
-            transcript = np.load(f'{self.data_path}/transcript/{transcript_names[i]}')[1:-1] # Remove [SOS] and [EOS] from the transcript (Is there an efficient way to do this 
-            # without traversing through the transcript?)
+            mfcc = np.load(f'{self.hparams.datapath}/mfcc/{mfcc_names[i]}')
+            
+            mfcc = (mfcc.T - np.mean(mfcc, axis=1)).T
+        #   Load the corresponding transcript and remove [SOS] and [EOS]
+            transcript = np.load(f'{self.hparams.datapath}/transcript/{transcript_names[i]}')[1:-1]
         #   Append each mfcc to self.mfcc, transcript to self.transcript
             self.mfccs.append(mfcc)
             self.transcripts.append(transcript)
@@ -128,3 +127,8 @@ class AudioTestDataset(torch.utils.data.Dataset):
         frames = torch.FloatTensor(frames) # Convert to tensors    
 
         return frames
+
+hparams = Hparams()
+test = AudioDataset(hparams)
+
+next(iter(test))
