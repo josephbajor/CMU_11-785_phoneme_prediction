@@ -1,16 +1,17 @@
 import torch
 import os
 import numpy as np
-from hparams import Hparams
 
 class AudioDataset(torch.utils.data.Dataset):
 
-    def __init__(self, hparams:Hparams): # Feel free to add more arguments
+    def __init__(self, data_path:os.PathLike, context:int, offset=0, partition="train", limit=None): # Feel free to add more arguments
 
-        self.hparams = hparams
+        self.context = context
+        self.offset = offset
+        self.data_path = data_path
 
-        self.mfcc_dir = f'{self.hparams.datapath}/mfcc' # TODO: MFCC directory - use partition to acces train/dev directories from kaggle data
-        self.transcript_dir = f'{self.hparams.datapath}/transcript' # TODO: Transcripts directory - use partition to acces train/dev directories from kaggle data
+        self.mfcc_dir = f'{self.data_path}/mfcc' # TODO: MFCC directory - use partition to acces train/dev directories from kaggle data
+        self.transcript_dir = f'{self.data_path}/transcript' # TODO: Transcripts directory - use partition to acces train/dev directories from kaggle data
 
         mfcc_names = sorted(os.listdir(self.mfcc_dir)) # TODO: List files in X_dir using os.listdir in sorted order, optionally subset using limit to slice the number of files you load
         transcript_names = sorted(os.listdir(self.transcript_dir)) # TODO: List files in Y_dir using os.listdir in sorted order, optionally subset using limit to slice the number of files you load
@@ -23,11 +24,12 @@ class AudioDataset(torch.utils.data.Dataset):
         # Iterate through mfccs and transcripts
         for i in range(0, len(mfcc_names)):
         #   Load a single mfcc
-            mfcc = np.load(f'{self.hparams.datapath}/mfcc/{mfcc_names[i]}')
-            
-            mfcc = (mfcc.T - np.mean(mfcc, axis=1)).T
-        #   Load the corresponding transcript and remove [SOS] and [EOS]
-            transcript = np.load(f'{self.hparams.datapath}/transcript/{transcript_names[i]}')[1:-1]
+            mfcc = np.load(f'{self.data_path}/mfcc/{mfcc_names[i]}')
+        #   Do Cepstral Normalization of mfcc
+            mfcc = (mfcc - np.mean(mfcc, axis=0))/mfcc.std(axis=0)
+        #   Load the corresponding transcript
+            transcript = np.load(f'{self.data_path}/transcript/{transcript_names[i]}')[1:-1] # Remove [SOS] and [EOS] from the transcript (Is there an efficient way to do this 
+            # without traversing through the transcript?)
         #   Append each mfcc to self.mfcc, transcript to self.transcript
             self.mfccs.append(mfcc)
             self.transcripts.append(transcript)
@@ -96,7 +98,7 @@ class AudioTestDataset(torch.utils.data.Dataset):
         self.data_path = data_path
 
         self.mfcc_dir = f'{self.data_path}/mfcc' # TODO: MFCC directory - use partition to acces train/dev directories from kaggle data
-        mfcc_names = os.listdir(self.mfcc_dir) # TODO: List files in X_dir using os.listdir in sorted order, optionally subset using limit to slice the number of files you load
+        mfcc_names = sorted(os.listdir(self.mfcc_dir)) # TODO: List files in X_dir using os.listdir in sorted order, optionally subset using limit to slice the number of files you load
 
         self.mfccs = []
 
@@ -104,17 +106,17 @@ class AudioTestDataset(torch.utils.data.Dataset):
         # Iterate through mfccs and transcripts
         for i in range(0, len(mfcc_names)):
             mfcc = np.load(f'{self.data_path}/mfcc/{mfcc_names[i]}')
+            mfcc = (mfcc - np.mean(mfcc, axis=0))/mfcc.std(axis=0)
             self.mfccs.append(mfcc)
 
         self.mfccs = np.concatenate(self.mfccs)
 
+        # Length of the dataset is now the length of concatenated mfccs/transcripts
+        self.length = len(self.mfccs)
 
         # Take some time to think about what we have done. self.mfcc is an array of the format (Frames x Features). Our goal is to recognize phonemes of each frame
         # From hw0, you will be knowing what context is. We can introduce context by padding zeros on top and bottom of self.mfcc
-        self.mfccs = np.pad(self.mfccs, (self.context,self.context), 'constant')
-
-        # Length of the dataset is now the length of concatenated mfccs/transcripts
-        self.length = len(self.mfccs)
+        self.mfccs = np.pad(self.mfccs, pad_width=((self.context,self.context),(0,0)), mode='constant')
 
     def __len__(self):
         return self.length
@@ -128,7 +130,5 @@ class AudioTestDataset(torch.utils.data.Dataset):
 
         return frames
 
-hparams = Hparams()
-test = AudioDataset(hparams)
 
-next(iter(test))
+train_data = AudioDataset('/home/jbajor/Dev/hw1/data/train-clean-100', context=30)

@@ -1,6 +1,8 @@
 .vscode
 .ipynb_checkpoints
 /__pycache__
+/wandb
 model_arch.txt
 model_checkpoint.pth
 *.pdf
+*.csv
