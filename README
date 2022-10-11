@@ -1,0 +1,24 @@
+The final model for this homework acheived an accuracy of 86.58 on the validation dataset.
+Early experiments performed well with a cylinder architecture,
+and a modular cylinder architecture was built to allow for faster experimentation, located in model.py
+Hyperparameters were moved to a seperate Hparams dataclass object located in Hparams.py
+A modular network meant that attributes like network depth and width could be set by the hparams object.
+The final hyperparameters for the model are as follows:
+
+    ### Model Params ###
+    context:int = 30
+    layers:int = 8
+    width:int = 1745
+    dropout_p:float = 0.25
+    
+    ### Train Params ###
+    lr:float = 1e-3
+    batch_size:int = 1028
+    epochs:int = 25
+    mixed_precision:bool = False
+
+The model also used a GELU activation function, KL divergence with batchmean reduction for the loss function, and ReduceLROnPlateau for the learning weight schedueler.
+
+To run the model, you can just use the starter notebook as updated components that were moved out are just called back in within the notebook.
+
+WandB link for ablations: https://wandb.ai/idl-group/hw1p2/overview
